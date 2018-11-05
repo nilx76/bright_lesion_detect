@@ -23,7 +23,7 @@ def extract_channel(
     color_matrix = numpy.array(color_image)
 
     result_matrix = color_matrix[:,:,channel.value]
-    # 1 for red, 2 for green and 3 for blue
+    # 0 for red, 1 for green and 2 for blue
 
     result = PIL.Image.fromarray(result_matrix)
 
