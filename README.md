@@ -10,9 +10,9 @@ Retina Blood Vessel Segmentation and Diagnosis tool. A thesis project
 ## How to test
 In the command line interface, navigate to the root directory of the project (??/revesedi/) and then type:
 ```
-    python -m unittest tests.[your test module]
+    python3 -m unittest tests.[your test module]
 ```
 Example:
 ```
-    python -m unittest tests.test_read
+    python3 -m unittest tests.test_read
 ```
