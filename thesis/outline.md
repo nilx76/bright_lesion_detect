@@ -1,4 +1,4 @@
-## Chương 1: Giới thiệu
+## Chương 1: Giới thiệu.................
 ### 1.1 Giới thiệu đề tài
 Giới thiệu đề tài, mình muốn làm gì, tại sao, việc đó có ý nghĩa như thế nào
 ### 1.2 Mục tiêu nội dung đề tài
