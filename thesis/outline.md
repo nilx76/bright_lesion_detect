@@ -1,10 +1,12 @@
-## Chương 1: Giới thiệu test
+## Chương 1: Giới thiệu
 ### 1.1 Giới thiệu đề tài
+Như chúng ta đã biết, mắt là bộ phận quan trọng trên cơ thể con người đóng vai trò là cơ quan đáp ứng với ánh sáng và giúp chúng quan sát mọi vật xung quanh. Trong đó, võng mạc đóng vai trò như một cuốn phim trong máy quay phim. Võng mạc có chức năng chuyển năng lượng ánh sáng thành thị lực và gửi thông tin ngược về não qua những dây thần kinh thị giác. Nếu giác mạc bị tổn hại có thể ảnh hưởng đến một phần hoặc làm mất hoàn toàn tầm nhìn của chủ thể.
+Trong đề tài luận văn này, chúng tôi sẽ đưa ra công cụ phân đoạn các mạch máu trong ảnh võng mạc mắt (dùng ảnh y khoa) và dựa vào đó để phát hiện các bất thường có thể ảnh hưởng xấu đến võng mạc. Dựa vào kết quả đó để chuẩn đoán, đưa ra kết quá tổn thương võng mạc để lựa chọn phương pháp điều trị phù hợp với bệnh nhân.
 Giới thiệu đề tài, mình muốn làm gì, tại sao, việc đó có ý nghĩa như thế nào
 ### 1.2 Mục tiêu nội dung đề tài
 Mục tiêu : tên luận văn, nội dung : trong file danh sách luận văn.
 ### 1.3 Giới hạn đề tài
-Đặt ra giới hạn chỉ làm những việc gì, không làm việc gì
+Đề tài này sử dụng ảnh y khoa của võng mạc mắt của một người bình thường, từ đó phân tích các mạch máu trong ảnh và tìm ra những bất thường nếu có.
 ### 1.4 Cấu trúc báo cáo
 Được chia thành 4 chương có cấu trúc như sau : 
   - Chương 1 : Giới thiệu : Trong chương này ta làm cái j đó 
