@@ -19,9 +19,22 @@ Những lý thuyết liên quan tới đề tài
 Đưa những bài báo đã đọc vào, bài báo nói những nội dung gì, ưu và nhược điểm của những phương pháp mà bài báo đề xuất, kết quả đạt được là gì
 ## Chương 3: Phương pháp đề xuất
 ### 3.1 Yêu cầu bài toán
-Bài toán đề cương yêu cầu những gì ( input, output, )
+Bài toán đề cương yêu cầu: Từ hình ảnh võng mạc mắt(input) ta có thê phân tích, tính toán và tìm ra được sự bất thường(output) từ đó có thể chẩn đoán được bệnh mà bệnh nhân đang mắc phải.
 ### 3.2 Phương pháp đề xuất
-Đề xuất những phương pháp nào, gồm bao nhiêu bước, mỗi bước làm gì ...
+Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phương pháp lọc tách mạch máu trong ảnh võng mạc và từ đó phát hiện ra bất thường bao gồm:
+  - Lọc màu và phát hiện đĩa quang(OD)
+  - Tách OD và loại bỏ OD
+  - Phát hiện và tách mạch máu
+  - Phát hiện sự bất thường trong mạch máu
+#### a. Lọc màu và phát hiện đĩa quang(OD)
+Ảnh võng mạc gồm ba kênh màu là xanh lá, đỏ và xanh dương. Trong đó kênh màu đỏ bị bão hòa còn kênh màu xanh dương bị thiếu sáng để phát hiện mạch máu. Do đó chọn kênh xanh lá làm nền để phát hiện mạch mau do độ tương phả của mạch máu và nền cao.
+....
+#### b. Tách OD và loại bỏ OD
+
+#### c. Phát hiện và tách mạch máu
+
+#### d. Phát hiện sự bất thường trong mạch máu
+
 ### 3.3 Phương pháp đánh giá
 Dùng phương pháp nào để đánh giá kết quả tốt hay xấu
 ## Chương 4: Kết luận (?)
