@@ -54,7 +54,7 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phư�
 |Chuyên gia 3  | 9  | 9  | 9  |  9   |
 |Trung bình    | 8  |8.7 |7.7 |  8.1 |
 
-####3.3.2 Đánh giá bằng phương pháp định lượng
+#### 3.3.2 Đánh giá bằng phương pháp định lượng
 ## Chương 4: Kết luận (?)
 ### 4.1 Kết quả đạt được
 Nội dung đề tài có bao nhiêu ý thì phần này có bấy nhiêu ý
