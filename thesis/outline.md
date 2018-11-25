@@ -36,7 +36,28 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phư�
 #### d. Phát hiện sự bất thường trong mạch máu
 
 ### 3.3 Phương pháp đánh giá
-Dùng phương pháp nào để đánh giá kết quả tốt hay xấu
+####3.3.1 Đánh giá bằng phương pháp định tính
+ - Ở phương pháp này chúng tôi định lượng các tiêu thức để đánh giá và có sự phân biệt mức độ quan trọng cho các tiêu thức. Trình tự thực hiện như sau:
+
+ - Trước hết cần phải xác định được những tiêu chí cần đánh giá cho một ảnh đã xử lý.
+
+ + Độ rõ mạch máu (đường đen) trong ảnh so với ảnh gốc (K1).
+ + Mật độ mạch máu (đường đen) còn lại trong ảnh so với ảnh gốc (K2).
+ + Địa thị (K3).
+
+ *Ví dụ:*
+
+|              |    Tiêu chí  |      |
+|  Chuyển gia  |--------------| Tổng |
+|              | K1 | K2 | K3 |      |
+|--------------|:--:|:--:|:--:|:----:|
+|Chuyên gia 1  | 7  | 8  | 7  |  7.3 |
+|Chuyên gia 2  | 8  | 9  | 7  |  8   |
+|Chuyên gia 3  | 9  | 9  | 9  |  9   |
+|--------------|:--:|:--:|:--:|:----:|
+|Trung bình    | 8  |8.7 |7.7 |  8.1 |
+
+####3.3.2 Đánh giá bằng phương pháp định lượng
 ## Chương 4: Kết luận (?)
 ### 4.1 Kết quả đạt được
 Nội dung đề tài có bao nhiêu ý thì phần này có bấy nhiêu ý
