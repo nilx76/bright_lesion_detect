@@ -58,7 +58,6 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phư�
 |Chuyên gia 1  | 7  | 8  | 7  |  7.3 |
 |Chuyên gia 2  | 8  | 9  | 7  |  8   |
 |Chuyên gia 3  | 9  | 9  | 9  |  9   |
-||||||
 |Trung bình    | 8  |8.7 |7.7 |  8.1 |
 
 ####3.3.2 Đánh giá bằng phương pháp định lượng
