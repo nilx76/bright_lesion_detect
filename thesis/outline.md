@@ -51,8 +51,7 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phư�
  |---|---|
  |87|8593|
 
-|        a     |    Tiêu chí  |   a  |
-|  Chuyển gia  |        b      | Tổng |
+
 |        a     | K1 | K2 | K3 |   a  |
 |--------------|----|----|----|------|
 |Chuyên gia 1  | 7  | 8  | 7  |  7.3 |
