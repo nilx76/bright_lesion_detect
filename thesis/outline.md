@@ -47,10 +47,6 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phư�
 
  *Ví dụ:*
 
- | a | b |s
- |---|---|
- |87|8593|
-
 |    Chuyên gia| K1 | K2 | K3 | Trung bình |
 |--------------|:----:|:----:|:----:|:----:|
 |Chuyên gia 1  | 7  | 8  | 7  |  7.3 |
