@@ -47,6 +47,10 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phư�
 
  *Ví dụ:*
 
+ | a | b |
+ |---|---|
+ |87|8593|
+
 |              |    Tiêu chí  |      |
 |  Chuyển gia  |--------------| Tổng |
 |              | K1 | K2 | K3 |      |
