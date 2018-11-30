@@ -1,8 +1,14 @@
 ## Chương 1: Giới thiệu
 ### 1.1 Giới thiệu đề tài
 Như chúng ta đã biết, mắt là bộ phận quan trọng trên cơ thể con người đóng vai trò là cơ quan đáp ứng với ánh sáng và giúp chúng quan sát mọi vật xung quanh. Trong đó, võng mạc đóng vai trò như một cuốn phim trong máy quay phim. Võng mạc có chức năng chuyển năng lượng ánh sáng thành thị lực và gửi thông tin ngược về não qua những dây thần kinh thị giác. Nếu giác mạc bị tổn hại có thể ảnh hưởng đến một phần hoặc làm mất hoàn toàn tầm nhìn của chủ thể.
-Trong đề tài luận văn này, chúng tôi sẽ đưa ra công cụ phân đoạn các mạch máu trong ảnh võng mạc mắt (dùng ảnh y khoa) và dựa vào đó để phát hiện các bất thường có thể ảnh hưởng xấu đến võng mạc. Dựa vào kết quả đó để chuẩn đoán, đưa ra kết quá tổn thương võng mạc để lựa chọn phương pháp điều trị phù hợp với bệnh nhân.
-Giới thiệu đề tài, mình muốn làm gì, tại sao, việc đó có ý nghĩa như thế nào
+
+Một số bệnh có thể được chẩn đoán thông qua các triệu chứng xuất hiện trên ảnh võng mạc, như bệnh tiểu đường (Diabetes), bệnh suy giảm thị lực do tiểu đường (Diabetic Retinopathy), bệnh tăng nhãn áp (Glaucoma), bệnh huyết áp cao (High Blood Pressure), bệnh ung thư mắt ... Một số triệu chứng của những bệnh trên có triệu chứng xuất hiện sớm trên hình ảnh võng mạc ở giai đoạn đầu, dẫn tới việc chẩn đoán trên ảnh võng mạc là một phương pháp hiệu quả để điều trị sớm, dẫn tới kết quả điều trị khả quan hơn. 
+
+Việc thu thập ảnh võng mạc của bệnh nhân thường được thực hiện với thiết bị chuyên dụng là Kính soi đáy mắt (Ophthalmoscope). Kính soi đáy mắt chuyên dụng cho y tế thường có giá thành cao (> 300$), do vậy ở các cơ sở y tế ở vùng sâu vùng xa, ở những nơi không có đầy đủ cơ sở vật chất ... sẽ không có điều kiện áp dụng thiết bị này vào chẩn đoán. Một số phương pháp thay thế có thể được dùng để chụp ảnh võng mạc (ví dụ như chụp bằng camera của smartphone kết hợp với thấu kính - link : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5609317/), tuy nhiên độ chính xác và chất lượng sẽ không cao. Độ tương phản giữa mạch máu và vùng nền thấp, khó phân biệt được với nhau khiến việc chẩn đoán gặp khó khăn.
+
+Việc dùng phần mềm để có thể tách phần mạch máu ra khỏi ảnh võng mạc có thể giúp ích cho bác sĩ chẩn đoán nhanh chóng phát hiện những dấu hiệu bất thường, từ đó đưa ra kết luận sớm chính xác hơn.
+
+Trong đề tài luận văn này, chúng tôi sẽ đưa ra công cụ phân đoạn các mạch máu trong ảnh võng mạc mắt (dùng ảnh y khoa) và dựa vào đó để phát hiện một số bất thường trên võng mạc. Dựa vào kết quả đó để chuẩn đoán, đưa ra kết quá tổn thương võng mạc để lựa chọn phương pháp điều trị phù hợp với bệnh nhân.
 ### 1.2 Mục tiêu nội dung đề tài
 Mục tiêu : tên luận văn, nội dung : trong file danh sách luận văn.
 ### 1.3 Giới hạn đề tài
@@ -20,20 +26,30 @@ Những lý thuyết liên quan tới đề tài
 ## Chương 3: Phương pháp đề xuất
 ### 3.1 Yêu cầu bài toán
 Bài toán đề cương yêu cầu: Từ hình ảnh võng mạc mắt(input) ta có thê phân tích, tính toán và tìm ra được sự bất thường(output) từ đó có thể chẩn đoán được bệnh mà bệnh nhân đang mắc phải.
+
 ### 3.2 Phương pháp đề xuất
-Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phương pháp lọc tách mạch máu trong ảnh võng mạc và từ đó phát hiện ra bất thường bao gồm:
-  - Lọc màu và phát hiện đĩa quang(OD)
-  - Tách OD và loại bỏ OD
-  - Phát hiện và tách mạch máu
-  - Phát hiện sự bất thường trong mạch máu
+Sau một thời gian nghiên cứu và tìm kiếm, nhóm đề xuất phương pháp lọc tách mạch máu trong ảnh võng mạc và từ đó phát hiện ra bất thường bao gồm các bước sau:
+#### 3.2.1 Tiền xử lý - Pre-processing:
+  - Lọc lấy kênh màu xanh lá cây (green channel)
+  - loại bỏ Optical Disk
+  - Lọc nhiễu bằng Median Filter
+  - Tăng cường độ tương phản bằng Constract-Limited Adaptive Histogram Equalization (CLAHE filter)
+#### 3.2.2 Phân đoạn mạch máu - Blood vessel segmentation
+  Ở bước phân đoạn mạch máu, nhóm có tìm hiểu một số phương pháp có thể khả thi để áp dụng :
+   a) Mean-C Thresholding
+   b) Gabor Filter
+   c) Deep Learning CNN 
+#### 3.2.3 Phát hiện bất thường 
+  Với dữ liệu thu được ở bước phân đoạn, một số bất thường có thể phát hiện được :
+##### 3.2.3.1 Suy giảm thị lực do tiểu đường - Diabetic Retinopathy
+  Đối với bệnh suy giảm thị lực do tiểu đường, một triệu chứng có thể xảy ra là các mạch máu mới sẽ được sinh ra nhiều hơn dẫn tới diện tích của mạch máu tăng. Ta có thể dùng thống kê để xác định lượng mạch máu trên võng mạc là bình thường hay bất thường.
+
+  
+  ```
 #### a. Lọc màu và phát hiện đĩa quang(OD)
 Ảnh võng mạc gồm ba kênh màu là xanh lá, đỏ và xanh dương. Trong đó kênh màu đỏ bị bão hòa còn kênh màu xanh dương bị thiếu sáng để phát hiện mạch máu. Do đó chọn kênh xanh lá làm nền để phát hiện mạch mau do độ tương phả của mạch máu và nền cao.
 ....
-#### b. Tách OD và loại bỏ OD
-
-#### c. Phát hiện và tách mạch máu
-
-#### d. Phát hiện sự bất thường trong mạch máu
+```
 
 ### 3.3 Phương pháp đánh giá
 #### 3.3.1 Đánh giá bằng phương pháp định tính
@@ -55,6 +71,19 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm em đề xuất phư�
 |Trung bình    | 8  |8.7 |7.7 |  8.1 |
 
 #### 3.3.2 Đánh giá bằng phương pháp định lượng
+
+#### 3.3.2.1 Đánh giá phân đoạn mạch máu 
+  
+|                          | Mạch máu hiện diện | Mạch máu không hiện diện |
+|--------------------------|--------------------|--------------------------|
+|Xác định là mạch máu      |True positive (TP)  |False Positive (FP)       |
+|Xác định không là mạch máu|False negative (FN) |True Negative (TN)        |
+
+Sensitivity = TP/(TP+TN)
+
+Specificity = FN(FN+FP)
+
+
 ## Chương 4: Kết luận (?)
 ### 4.1 Kết quả đạt được
 Nội dung đề tài có bao nhiêu ý thì phần này có bấy nhiêu ý
