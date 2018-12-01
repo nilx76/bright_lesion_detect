@@ -11,6 +11,7 @@ Việc dùng phần mềm để có thể tách phần mạch máu ra khỏi ả
 Trong đề tài luận văn này, chúng tôi sẽ đưa ra công cụ phân đoạn các mạch máu trong ảnh võng mạc mắt (dùng ảnh y khoa) và dựa vào đó để phát hiện một số bất thường trên võng mạc. Dựa vào kết quả đó để chuẩn đoán, đưa ra kết quá tổn thương võng mạc để lựa chọn phương pháp điều trị phù hợp với bệnh nhân.
 ### 1.2 Mục tiêu nội dung đề tài
 Mục tiêu : Phát hiện bất thường trong ảnh võng mạc mát
+
 Nội dung : Ảnh y khoa có vai trò quan trọng trong việc chẩn đoán các dị tật bất thường trong cơ thể bệnh nhân, đặc biệt là võng mạc mắt. Phần lớn ảnh y khoa có chất lượng kém nên việc phát hiện ra các bất thường có kích thước nhỏ và hình dạng bất thường bằng mắt thường là rất khó. Nội dung chính của đề tài này là nghiên cứu các phương pháp để phân đoạn các mạch máu trong ảnh võng mạc mắt.
 ### 1.3 Giới hạn đề tài
 Đề tài này sử dụng ảnh y khoa của võng mạc mắt của một người bình thường, từ đó phân tích các mạch máu trong ảnh và tìm ra những bất thường nếu có.
