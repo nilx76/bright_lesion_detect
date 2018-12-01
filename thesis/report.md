@@ -6,6 +6,8 @@ Một số bệnh có thể được chẩn đoán thông qua các triệu chứ
 
 Việc thu thập ảnh võng mạc của bệnh nhân thường được thực hiện với thiết bị chuyên dụng là Kính soi đáy mắt (Ophthalmoscope). Kính soi đáy mắt chuyên dụng cho y tế thường có giá thành cao (> 300$), do vậy ở các cơ sở y tế ở vùng sâu vùng xa, ở những nơi không có đầy đủ cơ sở vật chất ... sẽ không có điều kiện áp dụng thiết bị này vào chẩn đoán. Một số phương pháp thay thế có thể được dùng để chụp ảnh võng mạc (ví dụ như chụp bằng camera của smartphone kết hợp với thấu kính - link : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5609317/), tuy nhiên độ chính xác và chất lượng sẽ không cao. Độ tương phản giữa mạch máu và vùng nền thấp, khó phân biệt được với nhau khiến việc chẩn đoán gặp khó khăn.
 
+
+
 Việc dùng phần mềm để có thể tách phần mạch máu ra khỏi ảnh võng mạc có thể giúp ích cho bác sĩ chẩn đoán nhanh chóng phát hiện những dấu hiệu bất thường, từ đó đưa ra kết luận sớm chính xác hơn.
 
 Trong đề tài luận văn này, chúng tôi sẽ đưa ra công cụ phân đoạn các mạch máu trong ảnh võng mạc mắt (dùng ảnh y khoa) và dựa vào đó để phát hiện một số bất thường trên võng mạc. Dựa vào kết quả đó để chuẩn đoán, đưa ra kết quá tổn thương võng mạc để lựa chọn phương pháp điều trị phù hợp với bệnh nhân.
@@ -27,7 +29,16 @@ Nội dung : Ảnh y khoa có vai trò quan trọng trong việc chẩn đoán c
   * Hình ảnh võng mạc bao gồm ba kênh: xanh lá cây, đỏ và xanh dương. Trong số ba kênh đó, kênh đỏ bị bão hòa và kênh xanh dương bị thiếu sáng để phát hiện mạch máu. Kênh màu xanh lá cây được xem xet để phát hiện mạch máu do độ tương phản cao giữa mạch mái và nền của nó. 
   * Đĩa quang (Optic disc-OD) là điểm hội tụ của tất cả các mạch máu trong võng mạc, việc loại bỏ OD làm cho một số mạch máu có thể nhìn thấy xuyên qua nó. Do đó OD phai được loại bỏ trước khi các mạch được phân đoạn vì no có thể dẫn đến sai lệch của các điểm ảnh OD chồng chéo với mạch máu.
 ### 2.2 Các nghiên cứu liên quan
+```
 Đưa những bài báo đã đọc vào, bài báo nói những nội dung gì, ưu và nhược điểm của những phương pháp mà bài báo đề xuất, kết quả đạt được là gì
+```
+- A thresholding based technique to extract retinal blood vessels from fundus images
+Ở bài báo này, tác giả Jyotiprava Dash và Nilamani Bhoi đã sử dụng kỹ thuật Mean-C Adaptive Thresholding để phân đoạn mạch máu võng mạc. Ưu điểm của phương pháp này là việc hiện thực khá đơn giản, thời gian xử lý rất nhanh và độ chính xác tốt.
+
+- An Improved Method for Automatic Retinal Blood Vessel Vascular Segmentation Using Gabor Filter (?) (https://file.scirp.org/pdf/OJMI_2015120814435245.pdf)
+
+- 
+
 ## Chương 3: Phương pháp đề xuất
 ### 3.1 Yêu cầu bài toán
 Bài toán đề cương yêu cầu: Từ hình ảnh võng mạc mắt(input) ta có thê phân tích, tính toán và tìm ra được sự bất thường(output) từ đó có thể chẩn đoán được bệnh mà bệnh nhân đang mắc phải.
