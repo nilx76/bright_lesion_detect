@@ -23,11 +23,11 @@ Nội dung : Ảnh y khoa có vai trò quan trọng trong việc chẩn đoán c
   - Chương 4 : Kết luận
 ## Chương 2: Cơ sở lý thuyết và các nghiên cứu liên quan
 ### 2.1 Cơ sở lý thuyết
-Bệnh võng mạc tiểu đường (Diabetic Retinopathy-DR) là bệnh gây tổn thương ở võng mạc bởi căn bệnh tiểu đường và là một nguyên nhân hàng đầu dẩn đến mù lòa. Nó ảnh hưởng đến 80% người bị tiểu đường trong khoảng 20 năm hoặc nhiều hơn. Ít nhất 90% trường hợp mới có thể thuyên giảm nếu nhận được điều trị sớm.
+  *Bệnh võng mạc tiểu đường (Diabetic Retinopathy-DR) là bệnh gây tổn thương ở võng mạc bởi căn bệnh tiểu đường và là một nguyên nhân hàng đầu dẩn đến mù lòa. Nó ảnh hưởng đến 80% người bị tiểu đường trong khoảng 20 năm hoặc nhiều hơn. Ít nhất 90% trường hợp mới có thể thuyên giảm nếu nhận được điều trị sớm.
 
-Hình ảnh võng mạc bao gồm ba kênh: xanh lá cây, đỏ và xanh dương. Trong số ba kênh đó, kênh đỏ bị bão hòa và kênh xanh dương bị thiếu sáng để phát hiện mạch máu. Kênh màu xanh lá cây được xem xet để phát hiện mạch máu do độ tương phản cao giữa mạch mái và nền của nó. 
+  *Hình ảnh võng mạc bao gồm ba kênh: xanh lá cây, đỏ và xanh dương. Trong số ba kênh đó, kênh đỏ bị bão hòa và kênh xanh dương bị thiếu sáng để phát hiện mạch máu. Kênh màu xanh lá cây được xem xet để phát hiện mạch máu do độ tương phản cao giữa mạch mái và nền của nó. 
 
-Đĩa quang (Optic disc-OD) là điểm hội tụ của tất cả các mạch máu trong võng mạc, việc loại bỏ OD làm cho một số mạch máu có thể nhìn thấy xuyên qua nó. Do đó OD phai được loại bỏ trước khi các mạch được phân đoạn vì no có thể dẫn đến sai lệch của các điểm ảnh OD chồng chéo với mạch máu.
+  *Đĩa quang (Optic disc-OD) là điểm hội tụ của tất cả các mạch máu trong võng mạc, việc loại bỏ OD làm cho một số mạch máu có thể nhìn thấy xuyên qua nó. Do đó OD phai được loại bỏ trước khi các mạch được phân đoạn vì no có thể dẫn đến sai lệch của các điểm ảnh OD chồng chéo với mạch máu.
 ### 2.2 Các nghiên cứu liên quan
 Đưa những bài báo đã đọc vào, bài báo nói những nội dung gì, ưu và nhược điểm của những phương pháp mà bài báo đề xuất, kết quả đạt được là gì
 ## Chương 3: Phương pháp đề xuất
