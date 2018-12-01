@@ -50,13 +50,12 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm đề xuất phương
 
 ### 3.3 Phương pháp đánh giá
 #### 3.3.1 Đánh giá bằng phương pháp định tính
- - Ở phương pháp này chúng tôi định lượng các tiêu thức để đánh giá và có sự phân biệt mức độ quan trọng cho các tiêu thức. Trình tự thực hiện như sau:
+  Ở phương pháp này chúng tôi định lượng các tiêu thức để đánh giá và có sự phân biệt mức độ quan trọng cho các tiêu thức. Trình tự thực hiện như sau:
 
- - Trước hết cần phải xác định được những tiêu chí cần đánh giá cho một ảnh đã xử lý.
-
- + Độ rõ mạch máu (đường đen) trong ảnh so với ảnh gốc (K1).
- + Mật độ mạch máu (đường đen) còn lại trong ảnh so với ảnh gốc (K2).
- + Địa thị (K3).
+ * Trước hết cần phải xác định được những tiêu chí cần đánh giá cho một ảnh đã xử lý.
+   * Độ rõ mạch máu (đường đen) trong ảnh so với ảnh gốc (K1).
+   * Mật độ mạch máu (đường đen) còn lại trong ảnh so với ảnh gốc (K2).
+   * Địa thị (K3).
 
  *Ví dụ:*
 
