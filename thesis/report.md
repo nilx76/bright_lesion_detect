@@ -37,20 +37,16 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm đề xuất phương
   - Tăng cường độ tương phản bằng Constract-Limited Adaptive Histogram Equalization (CLAHE filter)
 #### 3.2.2 Phân đoạn mạch máu - Blood vessel segmentation
   Ở bước phân đoạn mạch máu, nhóm có tìm hiểu một số phương pháp có thể khả thi để áp dụng :
+  
    a) Mean-C Thresholding
+   
    b) Gabor Filter
+   
    c) Deep Learning CNN 
 #### 3.2.3 Phát hiện bất thường 
   Với dữ liệu thu được ở bước phân đoạn, một số bất thường có thể phát hiện được :
 ##### 3.2.3.1 Suy giảm thị lực do tiểu đường - Diabetic Retinopathy
   Đối với bệnh suy giảm thị lực do tiểu đường, một triệu chứng có thể xảy ra là các mạch máu mới sẽ được sinh ra nhiều hơn dẫn tới diện tích của mạch máu tăng. Ta có thể dùng thống kê để xác định lượng mạch máu trên võng mạc là bình thường hay bất thường.
-
-  
-  ```
-#### a. Lọc màu và phát hiện đĩa quang(OD)
-Ảnh võng mạc gồm ba kênh màu là xanh lá, đỏ và xanh dương. Trong đó kênh màu đỏ bị bão hòa còn kênh màu xanh dương bị thiếu sáng để phát hiện mạch máu. Do đó chọn kênh xanh lá làm nền để phát hiện mạch mau do độ tương phả của mạch máu và nền cao.
-....
-```
 
 ### 3.3 Phương pháp đánh giá
 #### 3.3.1 Đánh giá bằng phương pháp định tính
