@@ -78,10 +78,11 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm đề xuất phương
 |Xác định là mạch máu      |True positive (TP)  |False Positive (FP)       |
 |Xác định không là mạch máu|False negative (FN) |True Negative (TN)        |
 
-Sensitivity = TP/(TP+TN)
+Sensitivity(Se) = TP / ( TP + FN )
 
-Specificity = FN(FN+FP)
+Specificity(Sp) = TN / ( TN + FP )
 
+Accuracy(Acc)   = ( TP + TN ) / ( TP + FN + TN + FP )
 
 ## Chương 4: Kết luận (?)
 ### 4.1 Kết quả đạt được
