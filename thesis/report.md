@@ -6,8 +6,6 @@ Một số bệnh có thể được chẩn đoán thông qua các triệu chứ
 
 Việc thu thập ảnh võng mạc của bệnh nhân thường được thực hiện với thiết bị chuyên dụng là Kính soi đáy mắt (Ophthalmoscope). Kính soi đáy mắt chuyên dụng cho y tế thường có giá thành cao (> 300$), do vậy ở các cơ sở y tế ở vùng sâu vùng xa, ở những nơi không có đầy đủ cơ sở vật chất ... sẽ không có điều kiện áp dụng thiết bị này vào chẩn đoán. Một số phương pháp thay thế có thể được dùng để chụp ảnh võng mạc (ví dụ như chụp bằng camera của smartphone kết hợp với thấu kính - link : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5609317/), tuy nhiên độ chính xác và chất lượng sẽ không cao. Độ tương phản giữa mạch máu và vùng nền thấp, khó phân biệt được với nhau khiến việc chẩn đoán gặp khó khăn.
 
-
-
 Việc dùng phần mềm để có thể tách phần mạch máu ra khỏi ảnh võng mạc có thể giúp ích cho bác sĩ chẩn đoán nhanh chóng phát hiện những dấu hiệu bất thường, từ đó đưa ra kết luận sớm chính xác hơn.
 
 Trong đề tài luận văn này, chúng tôi sẽ đưa ra công cụ phân đoạn các mạch máu trong ảnh võng mạc mắt (dùng ảnh y khoa) và dựa vào đó để phát hiện một số bất thường trên võng mạc. Dựa vào kết quả đó để chuẩn đoán, đưa ra kết quá tổn thương võng mạc để lựa chọn phương pháp điều trị phù hợp với bệnh nhân.
@@ -20,12 +18,13 @@ Nội dung : Ảnh y khoa có vai trò quan trọng trong việc chẩn đoán c
 ### 1.4 Cấu trúc báo cáo
 Được chia thành 4 chương có cấu trúc như sau : 
   - Chương 1 : Giới thiệu đề tài, nội dùng, giới hạn và cấu trúc đề tài
-  - Chương 2 : Cơ sở lý thuyết và các nghiên cứu liên quan : (trong chương này tui sẽ thực hiện những gì ...)
-  - Chương 3 : Phương pháp đề xuất giải quyết đề tài và đánh giá phương pháp
+  - Chương 2 : Cơ sở lý thuyết và các nghiên cứu liên quan
+  - Chương 3 : Phương pháp đề xuất giải quyết đề tài và phương pháp đánh giá
   - Chương 4 : Kết luận
 ## Chương 2: Cơ sở lý thuyết và các nghiên cứu liên quan
 ### 2.1 Cơ sở lý thuyết
   * Bệnh võng mạc tiểu đường (Diabetic Retinopathy-DR) là bệnh gây tổn thương ở võng mạc bởi căn bệnh tiểu đường và là một nguyên nhân hàng đầu dẩn đến mù lòa. Nó ảnh hưởng đến 80% người bị tiểu đường trong khoảng 20 năm hoặc nhiều hơn. Ít nhất 90% trường hợp mới có thể thuyên giảm nếu nhận được điều trị sớm.
+  * Màu RGB (Red green blue) là ba màu gốc có liên quan đến khái niệm về sinh học. Nó dựa trên cơ sở phản ứng sinh lý học của mắt người đối với ánh sáng. Mắt người có các tế bào cảm quang có hình nón nên còn được gọi là tế bào hình nón, các tế bào này thông thường có phản ứng cực đại với ánh sáng vàng - xanh lá cây (tế bào hình nón L), xanh lá cây (tế bào hình nón M) và xanh lam (tế bào hình nón S) tương ứng với các bước sóng khoảng 564 nm, 534 nm và 420 nm. Hầu hết các tiêu chuẩn ảnh hiện nay đều sử dụng mô hình màu RGB. Việc mất đi một trong ba màu gốc trên một bức ảnh có mô hình màu RGB có ảnh hưởng đến cấu trúc màu sắc của bức ảnh cũng như màu sắc hiển thị. Ví dụ ta lọc đi màu xanh lá của bức ảnh sẽ khiến cho bức ảnh chỉ còn lại 2 màu gốc tương phản nhau là đỏ và xanh lam khiến cho tấm ảnh khi hiển thị sẽ trở thành ảnh trắng đen. Việc đó giúp chúng ta xử lý các mạch máu trong ảnh dễ dàng hơn.
   * Hình ảnh võng mạc bao gồm ba kênh: xanh lá cây, đỏ và xanh dương. Trong số ba kênh đó, kênh đỏ bị bão hòa và kênh xanh dương bị thiếu sáng để phát hiện mạch máu. Kênh màu xanh lá cây được xem xet để phát hiện mạch máu do độ tương phản cao giữa mạch mái và nền của nó. 
   * Đĩa quang (Optic disc-OD) là điểm hội tụ của tất cả các mạch máu trong võng mạc, việc loại bỏ OD làm cho một số mạch máu có thể nhìn thấy xuyên qua nó. Do đó OD phai được loại bỏ trước khi các mạch được phân đoạn vì no có thể dẫn đến sai lệch của các điểm ảnh OD chồng chéo với mạch máu.
 ### 2.2 Các nghiên cứu liên quan
@@ -41,7 +40,7 @@ Nội dung : Ảnh y khoa có vai trò quan trọng trong việc chẩn đoán c
 
 ## Chương 3: Phương pháp đề xuất
 ### 3.1 Yêu cầu bài toán
-Bài toán đề cương yêu cầu: Từ hình ảnh võng mạc mắt(input) ta có thê phân tích, tính toán và tìm ra được sự bất thường(output) từ đó có thể chẩn đoán được bệnh mà bệnh nhân đang mắc phải.
+Bài toán đề cương yêu cầu: Từ hình ảnh võng mạc mắt (input) ta có thể phân tích, tính toán và tìm ra được sự bất thường (output) từ đó có thể chẩn đoán được bệnh mà bệnh nhân đang mắc phải.
 ### 3.2 Phương pháp đề xuất
 Sau một thời gian nghiên cứu và tìm kiếm, nhóm đề xuất phương pháp lọc tách mạch máu trong ảnh võng mạc và từ đó phát hiện ra bất thường bao gồm các bước sau:
 #### 3.2.1 Tiền xử lý - Pre-processing:
@@ -50,7 +49,7 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm đề xuất phương
   - Lọc nhiễu bằng Median Filter
   - Tăng cường độ tương phản bằng Constract-Limited Adaptive Histogram Equalization (CLAHE filter)
 #### 3.2.2 Phân đoạn mạch máu - Blood vessel segmentation
-  Ở bước phân đoạn mạch máu, nhóm có tìm hiểu một số phương pháp có thể khả thi để áp dụng :
+  Ở bước phân đoạn mạch máu, nhóm có tìm hiểu một số phương pháp   khả thi để áp dụng :
   
    a) Mean-C Thresholding
    
@@ -81,8 +80,6 @@ Sau một thời gian nghiên cứu và tìm kiếm, nhóm đề xuất phương
 |Trung bình    | 8  |8.7 |7.7 |  8.1 |
 
 #### 3.3.2 Đánh giá bằng phương pháp định lượng
-
-#### 3.3.2.1 Đánh giá phân đoạn mạch máu 
   
 |                          | Mạch máu hiện diện | Mạch máu không hiện diện |
 |--------------------------|--------------------|--------------------------|
@@ -94,6 +91,8 @@ Sensitivity(Se) = TP / ( TP + FN )
 Specificity(Sp) = TN / ( TN + FP )
 
 Accuracy(Acc)   = ( TP + TN ) / ( TP + FN + TN + FP )
+
+The higher accuracy, the better algorithm.
 
 ## Chương 4: Kết luận (?)
 ### 4.1 Kết quả đạt được
