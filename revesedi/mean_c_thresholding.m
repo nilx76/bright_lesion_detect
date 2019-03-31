@@ -1,24 +1,29 @@
-function thresholded = mean_c_thresholding(input)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+function thresholded = mean_c_thresholding(input,window,c)
+% mean_c_thresholding function segments the blood vessels from the retina 
+% image.
+%   Input image should be preprocessed with green channel extraction,
+%   CLAHE filter and smoothing with median filter.
+%   Return blood vessel image but with a lot of noise. Denoise operation
+%   should be used.
+
     % Rescale input matrix image to [0,1]
     % with 0 -> 0, 255 -> 1
-    im = rescale(input,'InputMin',0,'InputMax',255);
+    im = rescale(input,0,1,'InputMin',0,'InputMax',255);
     
     % STEP 1
     % Window size for mean filter !! CONST
-    window_size = 13;
+    window_size = window;
     % Value for thresholding !! CONST
-    threshold_value = 0.042;
+    threshold_value = c;
     
     % STEP 2
     % Create mean kernel corresponding to the window size
-    mean_kernel = ones(window_size,window_size) * (1 / window_size^2);
+    mean_kernel = double(ones(window_size,window_size)) * (1 / window_size^2);
     % Convolve with the input image to create mean image
-    mean_im = convolve_double(im,mean_kernel);
+    mean_im = conv2(im,mean_kernel,'same');
     
     % STEP 3
-    % Find the diff between convolved image and input image
+    % Find the diff (subtraction) between convolved image and input image
     diff_im = minus(mean_im, im);
     
     % STEP 4
